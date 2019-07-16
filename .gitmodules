@@ -1,0 +1,3 @@
+[submodule "rapiplus/pylib/zmapi"]
+	path = rapiplus/pylib/zmapi
+	url = ../lib-python.git

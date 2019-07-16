@@ -1,0 +1,15 @@
+.env.sh
+.srchash
+
+build/*
+
+tls/*
+!tls/.gitkeep
+
+lib/*
+!lib/.gitkeep
+
+include/RApiPlus.h
+
+env/*
+!env/example_env

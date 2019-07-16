@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export RAPI_USERNAME="my@email.com"
+export RAPI_PASSWORD="mypassword"
+
+export RAPI_MD_ENDPOINT="login_agent_tpc"
+export RAPI_IH_ENDPOINT="login_agent_historyc"
+export RAPI_TS_ENDPOINT="login_agent_opc"
+export RAPI_PNL_ENDPOINT="login_agent_pnlc"
+
+export MML_DMN_SRVR_ADDR="rituz00100.00.rithmic.com:65000~rituz00100.00.rithmic.net:65000~rituz00100.00.theomne.net:65000~rituz00100.00.theomne.com:65000"
+export MML_DOMAIN_NAME="rithmic_uat_dmz_domain"
+export MML_LIC_SRVR_ADDR="rituz00100.00.rithmic.com:56000~rituz00100.00.rithmic.net:56000~rituz00100.00.theomne.net:56000~rituz00100.00.theomne.com:56000"
+export MML_LOC_BROK_ADDR="rituz00100.00.rithmic.com:64100"
+export MML_LOGGER_ADDR="rituz00100.00.rithmic.com:45454~rituz00100.00.rithmic.net:45454~rituz00100.00.theomne.net:45454~rituz00100.00.theomne.com:45454"
+export MML_LOG_TYPE="log_net"
+export MML_SSL_CLNT_AUTH_FILE="../tls/rithmic_ssl_cert_auth_params"
+export MML_SSL_CLNT_CERT_FILE="../tls/rithmic_ssl_client_params"
+export MML_SSL_CLNT_KEY_FILE="../tls/rithmic_ssl_client_private_key"
